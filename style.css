@@ -1,8 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
+
+
+
 /*  Reset */
 
 *{
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
+
+
+/* Utility */
 
 .wrapper{
     overflow-x: hidden;
@@ -12,23 +21,112 @@
 .container{
     width: 90%;
     max-width: 1440px;
+    margin: 0 auto;
     
 }
+
+
+/* body base styling */
+
+body{
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+
+
+/* nav */
+
+
+
+nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+header{
+    margin-top: 2.25rem;
+    margin-bottom: 2.25rem;
+}
+
+
+/* hero */
 
 .tablet-img{
     display: none;
 }
 
+
 .hero{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    max-width: 1440px;
+    border: 2px solid black;
+    margin: 0 auto;
 }
 
 
+.hero-heading{
+    font-size: 4rem;
+    text-wrap: nowrap;
+    text-align: center;
+    font-weight: 900;
+}
+
+
+.hero-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 450px;
+    gap: 1.5rem;
+}
+
+.hero-info-text{
+    font-size: 1.125rem;
+    text-align: center;
+    line-height: 150%;
+    max-width: 448px;
+    font-weight: 500;
+}
+
+.btn{
+    padding: 1rem 2.5rem;
+    background-color: teal;
+    color:  white;
+    border-radius: 1.8rem;
+    border: none;
+    outline: none;
+}
+
+.hero-buttons{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+a{
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.hero-info{
+    margin-bottom: 1.5rem;
+}
+
+.accent-btn{
+    background-color: #855FB1;
+}
+/* TO DO: 
+
+Base Styling, Colors, Fonts, 
 
 
 
+*/
 
 
 
