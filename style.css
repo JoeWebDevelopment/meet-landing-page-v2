@@ -100,6 +100,8 @@ header{
     border-radius: 1.8rem;
     border: none;
     outline: none;
+    font-size: 1rem;
+    font-weight: 900;
 }
 
 .hero-buttons{
@@ -120,26 +122,169 @@ a{
 .accent-btn{
     background-color: #855FB1;
 }
+
+.version{
+    color: #8Fe3F9;
+}
+
+
+.heading-line{
+    color: #d1d1d1;
+    width: 80px;
+    transform: rotate(90deg);
+    margin-top: 0;
+    position: relative;
+}
+
+.hero{
+    margin-bottom: 5rem;
+}
+
+.modern{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10rem;
+}
+
+.heading-number-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.rounded-heading{
+    border: 1px solid #D1D1DF;
+    padding: .75rem;
+    border-radius: 999px;
+    color: #87879D;
+    font-size: 1rem;
+    font-weight: 900;
+    line-height: 150%;
+    margin-top: 39px;
+}
+
+.img-grid img{
+    max-height: 256px;
+    border-radius: 5px;
+    
+}
+
+.img-grid{
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: repeat(4, 1fr);
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+
+.modern-heading{
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-weight: 900;
+    line-height: 110%;
+    letter-spacing: 4px;
+    color: #4D96A9;
+    text-align: center;
+}
+
+.meetings-heading{
+    color: black;
+    font-size: 2.5rem;
+    font-weight: 900;
+    line-height: 110%;
+    text-align: center;
+}
+
+.modern-info{
+    max-width: 544px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.modern-text-info{
+    text-align: center;
+    font-size: 1.125rem;
+    font-weight: 500;
+    line-height: 150%;
+}
+
 /* TO DO: 
 
 Base Styling, Colors, Fonts, 
 
-
-
 */
 
-
-
-
-
-
-
-
-
-
-
-
 /* Media Queries */
+
+
+footer{
+    margin-top: 10rem;
+    background-image: url("assets/desktop/image-footer.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 1rem;
+    position: relative;
+    z-index: 4;
+    color: #FFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+footer::before{
+    content: " ";
+    position: absolute;
+    background-color: rgb(77, 150, 169, 0.8);
+    inset: 0;
+    z-index: 1;
+}
+
+
+
+
+.footer-info{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    z-index: 9999;
+    position: relative;
+    align-items: flex-start;
+    gap: 2rem;
+    margin: 0 auto;
+    border: 2px solid white;
+}
+
+.footer-heading{
+    font-size: 2.5rem;
+    font-weight: 900;
+    line-height: 150%;
+    max-width: 445px;
+}
+
+.footer-text{
+    font-size: 1.125rem;
+    font-weight: 500;
+    line-height: 110%;
+    max-width: 355px;
+    text-align: left;
+    margin-right: 2.5rem;
+}
+
+
+
+
+
+
+
 
 @media (max-width: 1100px){
     .hero{
@@ -156,3 +301,4 @@ Base Styling, Colors, Fonts,
         display: block;
     }
 }
+
